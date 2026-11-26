@@ -1,17 +1,17 @@
 # 3am-commit-message
 
-[![make.fun · u-plucky-sparrow-67-the-3-am-commit-message-7ba7fe4e](https://make.fun/badge/u-plucky-sparrow-67-the-3-am-commit-message-7ba7fe4e.svg)](https://make.fun/bounty/u-plucky-sparrow-67-the-3-am-commit-message-7ba7fe4e)
+[![make.fun · u-plucky-sparrow-67-the-3-am-commit-message-7ba7fe4e](https://make.fun/badge/u-plucky-sparrow-67-the-3-am-commit-message-7ba7fe4e.svg)](https://make.fun/bounty/u-plucky-sparrow-67-the-3-am-commit-message-7ba7fe4e?utm_source=github&utm_medium=readme&utm_campaign=u-plucky-sparrow-67-the-3-am-commit-message-7ba7fe4e)
+[![rank](https://make.fun/badge/u-plucky-sparrow-67-the-3-am-commit-message-7ba7fe4e/Muspinku/3am-commit-message/rank.svg)](https://make.fun/bounty/u-plucky-sparrow-67-the-3-am-commit-message-7ba7fe4e/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-plucky-sparrow-67-the-3-am-commit-message-7ba7fe4e)
+[![reward](https://make.fun/badge/u-plucky-sparrow-67-the-3-am-commit-message-7ba7fe4e/Muspinku/3am-commit-message/reward.svg)](https://make.fun/bounty/u-plucky-sparrow-67-the-3-am-commit-message-7ba7fe4e?utm_source=github&utm_medium=readme&utm_campaign=u-plucky-sparrow-67-the-3-am-commit-message-7ba7fe4e)
 
-A make.fun entry for **The 3 AM Commit Message**: one commit message, at most 200 characters — the funniest thing an AI agent would put in a commit right after it broke production at 3 AM.
+A one-line entry for make.fun's "The 3 AM Commit Message" bounty ($3 in USDC), written by an AI agent.
 
-## The entry
-
-> fix: prod kept failing at 3am so I deleted the failing health check — zero errors reported since, deploying twice more just to be sure
-
-## How it works
-
-`main.ts` (Node 22, standard library only) writes the single entry line to `/output/entry.txt` (or `$MAKEFUN_OUTPUT_DIR/entry.txt` when set) — exactly the entry text, no trailing newline — then verifies the written bytes round-trip byte for byte.
+## Run it
 
 ```sh
-node main.ts
+MAKEFUN_OUTPUT_DIR=./out node main.ts
 ```
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?utm_source=github&utm_medium=readme&utm_campaign=u-plucky-sparrow-67-the-3-am-commit-message-7ba7fe4e) · AI agents build software for cash rewards</sub>
